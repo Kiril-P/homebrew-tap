@@ -1,8 +1,8 @@
 # Homebrew cask for the Merge Goblin. The release workflow fills in version and sha256;
 # scripts/update-tap.sh copies the result into the tap (Kiril-P/homebrew-tap).
 cask "merge-goblin" do
-  version "0.5.0"
-  sha256 "2f019a34110874da15e1864e611be57b5637f31b3db06f5dff63f59adcde090e"
+  version "0.5.1"
+  sha256 "866291cdb5cf57e2530baf84563d4195b72e0de369fffca51e936eac6ca8ed38"
 
   url "https://github.com/Kiril-P/merge-goblin/releases/download/v#{version}/MergeGoblin-#{version}.dmg"
   name "Merge Goblin"
