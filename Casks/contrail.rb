@@ -1,8 +1,8 @@
 # Homebrew cask for Contrail. The release workflow fills in version and sha256;
 # scripts/update-tap.sh copies the result into the tap (Kiril-P/homebrew-tap).
 cask "contrail" do
-  version "0.4.0"
-  sha256 "1c3154a99f4a939e4458736d632def0ea98bfd0e76820c7e64d17cc40619e2e3"
+  version "0.5.0"
+  sha256 "6794137eb7716e2c9c76f62c88e2c797525a3030ee6fd4f90d670cc34a007b36"
 
   url "https://github.com/Kiril-P/contrail/releases/download/v#{version}/Contrail-#{version}.dmg"
   name "Contrail"
